@@ -4,4 +4,4 @@ def encode_md5(value:str) -> str:
     return resoult
 
 
-print(encode_md5('6666666777'))
+print(encode_md5('as'))
