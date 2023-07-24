@@ -3,11 +3,11 @@ import datetime
 import time
 
 
-payload = {
-    'my_name': 'Yaroslav',
-    'password': 'skajsdha',
-    'exp': datetime.datetime.utcnow() + datetime.timedelta(seconds=5),
-}
+def create_token():
+    payload = {
+        'my_name': 'Yaroslav',
+        'exp': datetime.datetime.utcnow() + datetime.timedelta(seconds=5),
+        }
 
 encode_jdw = jwt.encode(
     payload=payload,
