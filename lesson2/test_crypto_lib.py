@@ -1,4 +1,4 @@
-import crypto_lib
+from lesson2 import crypto_lib
 import pytest
 
 test_cases_md5 = [
